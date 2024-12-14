@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/smhcbr/RiderProjects/kuaforsln/kuaforsln.csproj",
+      "projectUniqueName": "/Users/smhcbr/Projects/webodev/webodev/kuaforsln/kuaforsln.csproj",
       "projectName": "kuaforsln",
-      "projectPath": "/Users/smhcbr/RiderProjects/kuaforsln/kuaforsln.csproj",
+      "projectPath": "/Users/smhcbr/Projects/webodev/webodev/kuaforsln/kuaforsln.csproj",
       "packagesPath": "/Users/smhcbr/.nuget/packages/",
-      "outputPath": "/Users/smhcbr/RiderProjects/kuaforsln/obj/",
+      "outputPath": "/Users/smhcbr/Projects/webodev/webodev/kuaforsln/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/smhcbr/.nuget/NuGet/NuGet.Config"
