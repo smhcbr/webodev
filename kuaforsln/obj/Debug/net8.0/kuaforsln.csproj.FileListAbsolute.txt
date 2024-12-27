@@ -26,3 +26,4 @@
 /Users/smhcbr/Projects/webodev/webodev/kuaforsln/obj/Debug/net8.0/kuaforsln.pdb
 /Users/smhcbr/Projects/webodev/webodev/kuaforsln/obj/Debug/net8.0/kuaforsln.genruntimeconfig.cache
 /Users/smhcbr/Projects/webodev/webodev/kuaforsln/obj/Debug/net8.0/ref/kuaforsln.dll
+/Users/smhcbr/Projects/webodev/webodev/kuaforsln/obj/Debug/net8.0/kuaforsln.csproj.AssemblyReference.cache

@@ -1,0 +1,66 @@
+@using kuaforsln.Models
+@using Microsoft.AspNetCore.Identity;
+@using Microsoft.AspNetCore.Mvc;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BerberRandevu</title>
+
+
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />*@
+
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="~/dist/semantic.min.css">
+</head>
+<body style="background-color:wheat">
+    <header>
+        <div class="ui container">
+            <div class="ui secondary pointing menu dividing header">
+                <a class="item" href="@Url.Content("~/")">Anasayfa</a>
+                <a class="item" href="@Url.Content("~/Home/About")">Hakkimizda</a>
+                <a class="item" href="@Url.Content("~/Home/Uzman")">Uzmanlar</a>
+                <a class="item" href="@Url.Content("~/Home/Galeri")">Galeri</a>
+                <a class="item" href="@Url.Content("~/Home/Iletisim")">Iletisim</a>
+                <div class="right menu">
+                    @if (Kullanici.Identity.IsAuthenticated)
+                    {
+                        @if (Kullanici.IsInRole("user"))
+                        {
+                            <a class="ui item" href="~/KullaniciView/RandevuAl">Randevu al</a>
+                        }
+                        <a class="ui item" href="@Url.Content("~/Giris")">@User.Identity.Name</a>
+                    }
+                    else
+                    {
+                        <a class="ui item" href="@Url.Content("~/Giris")">Giris Yap</a>
+                        <a class="ui item" href="@Url.Action("Kayit","Giris")">Uye Ol</a>
+                    }
+
+                </div>
+            </div>        
+        </div>
+    </header>
+    <div class="ui container">        
+            @RenderBody()        
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    @*<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>*@
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @*<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>*@
+
+    <script src="~/js/site.js"></script>
+    <script src="~/dist/semantic.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

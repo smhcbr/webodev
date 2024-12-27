@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
-</head>
-<body>
-About Us
-</body>
-</html>
+@model kuaforsln.Models.About
+@{
+    ViewData["Title"] = "Hakkinda";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+   
+<div class="ui grid centered container padded">
+    <div class="four wide column">
+        <h3>Hakkimizda</h3>
+        <p>@Model.Hakkinda</p>
+    </div>
+    <div class="four wide column">
+        <h3>Amac</h3>
+        <p>@Model.Amac</p>
+    </div>
+    <div class="four wide column">
+        <h3>Vizyonumuz</h3>
+        <p>@Model.Vizyon</p>
+    </div>
+ 
+</div>

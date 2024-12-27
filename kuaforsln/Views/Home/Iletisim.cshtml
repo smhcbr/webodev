@@ -1,0 +1,98 @@
+@model kuaforsln.Models.IletisimForm
+@{
+    ViewData["Title"] = "Iletisim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="ui grid centered container padded">
+    <div class="row">
+        <div class="four wide column">
+            <h3>Email</h3>
+            <p><i class="mail icon"></i>@ViewBag.Iletisim.Email</p>
+        </div>
+        <div class="four wide column">
+            <h3>Telefon</h3>
+            <p><i class="phone icon"></i>@ViewBag.Iletisim.Telefon</p>
+        </div>
+        <div class="four wide column">
+            <h3>Adres</h3>
+            <p><i class="point icon"></i>@ViewBag.Iletisim.Adres</p>
+        </div>
+    </div>
+
+
+    <br />
+    <br />
+    <br />
+
+    <div class="row centered">
+        <div class="col-md-12">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="1080" height="395" id="gmap_canvas" src="https://maps.google.com/maps?q=ait%20bilgisayar&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ytify.com">youtube to m3p</a></div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 395px;
+                        width: 1080px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 395px;
+                        width: 1080px;
+                    }
+                </style>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="ui middle aligned center aligned grid padded">
+    <div class="column">
+        <h2 class="ui teal image header">
+            <div class="content">
+                Mesajinizi yazin
+            </div>
+        </h2>
+        @using (Html.BeginForm("IletisimFormEkle", "YoneticiPanel", FormMethod.Post, new { @class = "ui form" }))
+        {
+            <div class="ui stacked segment">
+                <div class="field error">
+                    <div class="ui left icon input">
+                        <i class="user icon"></i>
+                        @Html.TextBoxFor(m => m.Ad, new { placeholder = "Isim Soyisim" })
+                    </div>
+                </div>
+                <div class="field error">
+                    <div class="ui left icon input">
+                        <i class="mail icon"></i>
+                        @Html.TextBoxFor(m => m.Email, new { placeholder = "E-mail Adresi" })
+                    </div>
+                </div>
+                <div class="field error">
+                    <div class="ui left icon input">
+                        <i class="phone icon"></i>
+                        @Html.TextBoxFor(m => m.Telefon, new { placeholder = "Telefon" })
+                    </div>
+                </div>
+                <div class="field error">
+                    <div class="ui left icon input">
+                        <i class="book icon"></i>
+                        @Html.TextBoxFor(m => m.Baslik, new { placeholder = "Baslik" })
+                    </div>
+                </div>
+                <div class="field error">
+                    <div class="ui left icon input">
+                        @Html.TextAreaFor(m => m.Mesaj, new { placeholder = "Mesajiniz" })
+                    </div>
+                </div>
+                <button class="ui fluid large teal submit button" type="submit">Gondeer</button>
+            </div>
+
+        }
+
+    </div>
+</div>
