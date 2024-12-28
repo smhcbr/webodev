@@ -67,6 +67,11 @@ namespace kuaforsln.Models
                     RoleAdi = "user"
                 });
 
+            modelBuilder.Entity<Randevu>()
+                .HasOne(r => r.Uzman)
+                .WithMany(u => u.Randevu)
+                .HasForeignKey(r => r.UzmanId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

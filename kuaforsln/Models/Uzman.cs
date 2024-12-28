@@ -13,10 +13,9 @@ public partial class Uzman
     }
     [Key]
     public int Id { get; set; }
-    [Required]
-    public int KullaniciId { get; set; }
+    public int? KullaniciId { get; set; }
     public string UzmanAlan { get; set; }
     [ForeignKey("KullaniciId")]
-    public virtual Kullanici Kullanici { get; set; }
+    public virtual Kullanici? Kullanici { get; set; }
     public virtual ICollection<Randevu> Randevu { get; set; }
 }

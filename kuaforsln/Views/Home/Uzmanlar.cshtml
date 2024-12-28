@@ -1,19 +1,21 @@
-@model IQueryable<kuaforsln.Models.Uzman>
+@model List<kuaforsln.Models.Uzman>
 @{
     ViewData["Title"] = "Uzmanlar";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
 <div class="ui grid centered container padded">
     @foreach (var uzman in Model)
     {
         <div class="three wide column">
-            <h4>Isim</h4>
-            <p>@uzman.Kullanici.TamAdi</p>
-            <br />
-            <h5>Alani</h5>
-            <p>@uzman.UzmanAlan</p>
+            
+            @if(uzman.Kullanici != null)
+            {
+                <h4>Isim</h4>
+                <p>@uzman.Kullanici.TamAdi</p>
+                <br />
+            }
+            <p>Alani: @uzman.UzmanAlan</p>
         </div>
     }
 </div>

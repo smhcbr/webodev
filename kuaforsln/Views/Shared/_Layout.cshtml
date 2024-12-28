@@ -23,11 +23,11 @@
             <div class="ui secondary pointing menu dividing header">
                 <a class="item" href="@Url.Content("~/")">Anasayfa</a>
                 <a class="item" href="@Url.Content("~/Home/About")">Hakkimizda</a>
-                <a class="item" href="@Url.Content("~/Home/Uzman")">Uzmanlar</a>
-                <a class="item" href="@Url.Content("~/Home/Galeri")">Galeri</a>
+                <a class="item" href="@Url.Content("~/Home/Uzmanlar")">Uzmanlar</a>
+                <a class="item" href="@Url.Content("~/Home/Gallery")">Galeri</a>
                 <a class="item" href="@Url.Content("~/Home/Iletisim")">Iletisim</a>
                 <div class="right menu">
-                    @if (Kullanici.Identity.IsAuthenticated)
+                    @* @if (Kullanici.Identity.IsAuthenticated)
                     {
                         @if (Kullanici.IsInRole("user"))
                         {
@@ -39,7 +39,7 @@
                     {
                         <a class="ui item" href="@Url.Content("~/Giris")">Giris Yap</a>
                         <a class="ui item" href="@Url.Action("Kayit","Giris")">Uye Ol</a>
-                    }
+                    } *@
 
                 </div>
             </div>        

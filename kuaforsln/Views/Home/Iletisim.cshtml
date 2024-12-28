@@ -1,4 +1,5 @@
-@model kuaforsln.Models.IletisimForm
+@* @model kuaforsln.Models.Iletisim *@
+@model kuaforsln.ViewModels.ContactViewModel
 @{
     ViewData["Title"] = "Iletisim";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -63,30 +64,30 @@
                 <div class="field error">
                     <div class="ui left icon input">
                         <i class="user icon"></i>
-                        @Html.TextBoxFor(m => m.Ad, new { placeholder = "Isim Soyisim" })
+                        @Html.TextBoxFor(m => m.ContactForm.Ad, new { placeholder = "Isim Soyisim" })
                     </div>
                 </div>
                 <div class="field error">
                     <div class="ui left icon input">
                         <i class="mail icon"></i>
-                        @Html.TextBoxFor(m => m.Email, new { placeholder = "E-mail Adresi" })
+                        @Html.TextBoxFor(m => m.ContactForm.Email, new { placeholder = "E-mail Adresi" })
                     </div>
                 </div>
                 <div class="field error">
                     <div class="ui left icon input">
                         <i class="phone icon"></i>
-                        @Html.TextBoxFor(m => m.Telefon, new { placeholder = "Telefon" })
+                        @Html.TextBoxFor(m => m.ContactForm.Telefon, new { placeholder = "Telefon" })
                     </div>
                 </div>
                 <div class="field error">
                     <div class="ui left icon input">
                         <i class="book icon"></i>
-                        @Html.TextBoxFor(m => m.Baslik, new { placeholder = "Baslik" })
+                        @Html.TextBoxFor(m => m.ContactForm.Baslik, new { placeholder = "Baslik" })
                     </div>
                 </div>
                 <div class="field error">
                     <div class="ui left icon input">
-                        @Html.TextAreaFor(m => m.Mesaj, new { placeholder = "Mesajiniz" })
+                        @Html.TextAreaFor(m => m.ContactForm.Mesaj, new { placeholder = "Mesajiniz" })
                     </div>
                 </div>
                 <button class="ui fluid large teal submit button" type="submit">Gonder</button>

@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using System.Linq.Expressions;
+using kuaforsln.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace kuaforsln.Repository
@@ -8,10 +9,10 @@ namespace kuaforsln.Repository
     public class Repository<T> : IRepository<T> where T : class
     {
         public DbSet<T> Table { get; set; }
-        private readonly DbContext _context;
+        private readonly BerberWebContext _context;
         private readonly DbSet<T> _table;
 
-        public Repository(DbContext context) 
+        public Repository(BerberWebContext context) 
         {
             _context = context;
             _table = context.Set<T>();

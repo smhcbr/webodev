@@ -14,6 +14,6 @@ namespace kuaforsln.Models
         public DateTime ResimTarihi { get; set; }
         public int ResimId { get; set; }
 
-        public virtual Kullanici ResimKullanici { get; set; }
+        public virtual Kullanici? ResimKullanici { get; set; }
     }
 }

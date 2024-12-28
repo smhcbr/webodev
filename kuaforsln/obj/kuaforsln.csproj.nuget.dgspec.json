@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/smhcbr/Projects/webodev/webodev/kuaforsln/kuaforsln.csproj": {}
+    "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\kuaforsln.csproj": {}
   },
   "projects": {
-    "/Users/smhcbr/Projects/webodev/webodev/kuaforsln/kuaforsln.csproj": {
+    "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\kuaforsln.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/smhcbr/Projects/webodev/webodev/kuaforsln/kuaforsln.csproj",
+        "projectUniqueName": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\kuaforsln.csproj",
         "projectName": "kuaforsln",
-        "projectPath": "/Users/smhcbr/Projects/webodev/webodev/kuaforsln/kuaforsln.csproj",
-        "packagesPath": "/Users/smhcbr/.nuget/packages/",
-        "outputPath": "/Users/smhcbr/Projects/webodev/webodev/kuaforsln/obj/",
+        "projectPath": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\kuaforsln.csproj",
+        "packagesPath": "C:\\Users\\90532\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/smhcbr/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\90532\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -44,6 +45,22 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
             }
@@ -67,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/smhcbr/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

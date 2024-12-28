@@ -1,0 +1,869 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\accordion.css",
+      "PackagePath": "staticwebassets\\dist\\components\\accordion.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\accordion.js",
+      "PackagePath": "staticwebassets\\dist\\components\\accordion.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\accordion.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\accordion.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\accordion.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\accordion.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\ad.css",
+      "PackagePath": "staticwebassets\\dist\\components\\ad.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\ad.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\ad.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\api.js",
+      "PackagePath": "staticwebassets\\dist\\components\\api.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\api.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\api.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\breadcrumb.css",
+      "PackagePath": "staticwebassets\\dist\\components\\breadcrumb.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\breadcrumb.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\breadcrumb.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\button.css",
+      "PackagePath": "staticwebassets\\dist\\components\\button.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\button.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\button.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\card.css",
+      "PackagePath": "staticwebassets\\dist\\components\\card.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\card.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\card.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\checkbox.css",
+      "PackagePath": "staticwebassets\\dist\\components\\checkbox.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\checkbox.js",
+      "PackagePath": "staticwebassets\\dist\\components\\checkbox.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\checkbox.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\checkbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\checkbox.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\checkbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\comment.css",
+      "PackagePath": "staticwebassets\\dist\\components\\comment.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\comment.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\comment.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\container.css",
+      "PackagePath": "staticwebassets\\dist\\components\\container.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\container.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\container.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\dimmer.css",
+      "PackagePath": "staticwebassets\\dist\\components\\dimmer.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\dimmer.js",
+      "PackagePath": "staticwebassets\\dist\\components\\dimmer.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\dimmer.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\dimmer.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\dimmer.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\dimmer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\divider.css",
+      "PackagePath": "staticwebassets\\dist\\components\\divider.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\divider.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\divider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\dropdown.css",
+      "PackagePath": "staticwebassets\\dist\\components\\dropdown.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\dropdown.js",
+      "PackagePath": "staticwebassets\\dist\\components\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\dropdown.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\dropdown.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\dropdown.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\dropdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\embed.css",
+      "PackagePath": "staticwebassets\\dist\\components\\embed.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\embed.js",
+      "PackagePath": "staticwebassets\\dist\\components\\embed.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\embed.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\embed.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\embed.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\embed.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\feed.css",
+      "PackagePath": "staticwebassets\\dist\\components\\feed.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\feed.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\feed.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\flag.css",
+      "PackagePath": "staticwebassets\\dist\\components\\flag.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\flag.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\flag.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\form.css",
+      "PackagePath": "staticwebassets\\dist\\components\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\form.js",
+      "PackagePath": "staticwebassets\\dist\\components\\form.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\form.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\form.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\form.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\form.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\grid.css",
+      "PackagePath": "staticwebassets\\dist\\components\\grid.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\grid.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\header.css",
+      "PackagePath": "staticwebassets\\dist\\components\\header.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\header.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\header.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\icon.css",
+      "PackagePath": "staticwebassets\\dist\\components\\icon.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\icon.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\icon.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\image.css",
+      "PackagePath": "staticwebassets\\dist\\components\\image.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\image.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\image.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\input.css",
+      "PackagePath": "staticwebassets\\dist\\components\\input.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\input.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\input.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\item.css",
+      "PackagePath": "staticwebassets\\dist\\components\\item.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\item.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\item.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\label.css",
+      "PackagePath": "staticwebassets\\dist\\components\\label.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\label.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\label.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\list.css",
+      "PackagePath": "staticwebassets\\dist\\components\\list.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\list.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\list.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\loader.css",
+      "PackagePath": "staticwebassets\\dist\\components\\loader.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\loader.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\loader.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\menu.css",
+      "PackagePath": "staticwebassets\\dist\\components\\menu.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\menu.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\menu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\message.css",
+      "PackagePath": "staticwebassets\\dist\\components\\message.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\message.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\message.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\modal.css",
+      "PackagePath": "staticwebassets\\dist\\components\\modal.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\modal.js",
+      "PackagePath": "staticwebassets\\dist\\components\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\modal.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\modal.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\modal.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\modal.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\nag.css",
+      "PackagePath": "staticwebassets\\dist\\components\\nag.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\nag.js",
+      "PackagePath": "staticwebassets\\dist\\components\\nag.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\nag.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\nag.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\nag.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\nag.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\placeholder.css",
+      "PackagePath": "staticwebassets\\dist\\components\\placeholder.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\placeholder.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\placeholder.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\popup.css",
+      "PackagePath": "staticwebassets\\dist\\components\\popup.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\popup.js",
+      "PackagePath": "staticwebassets\\dist\\components\\popup.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\popup.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\popup.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\popup.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\progress.css",
+      "PackagePath": "staticwebassets\\dist\\components\\progress.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\progress.js",
+      "PackagePath": "staticwebassets\\dist\\components\\progress.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\progress.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\progress.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\progress.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\progress.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\rail.css",
+      "PackagePath": "staticwebassets\\dist\\components\\rail.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\rail.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\rail.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\rating.css",
+      "PackagePath": "staticwebassets\\dist\\components\\rating.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\rating.js",
+      "PackagePath": "staticwebassets\\dist\\components\\rating.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\rating.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\rating.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\rating.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\rating.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\reset.css",
+      "PackagePath": "staticwebassets\\dist\\components\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\reset.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\reset.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\reveal.css",
+      "PackagePath": "staticwebassets\\dist\\components\\reveal.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\reveal.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\reveal.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\search.css",
+      "PackagePath": "staticwebassets\\dist\\components\\search.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\search.js",
+      "PackagePath": "staticwebassets\\dist\\components\\search.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\search.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\search.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\search.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\search.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\segment.css",
+      "PackagePath": "staticwebassets\\dist\\components\\segment.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\segment.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\segment.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\shape.css",
+      "PackagePath": "staticwebassets\\dist\\components\\shape.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\shape.js",
+      "PackagePath": "staticwebassets\\dist\\components\\shape.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\shape.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\shape.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\shape.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\shape.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\sidebar.css",
+      "PackagePath": "staticwebassets\\dist\\components\\sidebar.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\sidebar.js",
+      "PackagePath": "staticwebassets\\dist\\components\\sidebar.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\sidebar.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\sidebar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\sidebar.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\sidebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\site.css",
+      "PackagePath": "staticwebassets\\dist\\components\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\site.js",
+      "PackagePath": "staticwebassets\\dist\\components\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\site.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\site.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\site.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\site.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\statistic.css",
+      "PackagePath": "staticwebassets\\dist\\components\\statistic.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\statistic.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\statistic.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\step.css",
+      "PackagePath": "staticwebassets\\dist\\components\\step.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\step.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\step.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\sticky.css",
+      "PackagePath": "staticwebassets\\dist\\components\\sticky.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\sticky.js",
+      "PackagePath": "staticwebassets\\dist\\components\\sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\sticky.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\sticky.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\sticky.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\sticky.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\tab.css",
+      "PackagePath": "staticwebassets\\dist\\components\\tab.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\tab.js",
+      "PackagePath": "staticwebassets\\dist\\components\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\tab.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\tab.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\tab.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\tab.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\table.css",
+      "PackagePath": "staticwebassets\\dist\\components\\table.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\table.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\table.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\transition.css",
+      "PackagePath": "staticwebassets\\dist\\components\\transition.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\transition.js",
+      "PackagePath": "staticwebassets\\dist\\components\\transition.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\transition.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\transition.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\transition.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\transition.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\video.css",
+      "PackagePath": "staticwebassets\\dist\\components\\video.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\video.js",
+      "PackagePath": "staticwebassets\\dist\\components\\video.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\video.min.css",
+      "PackagePath": "staticwebassets\\dist\\components\\video.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\video.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\video.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\visibility.js",
+      "PackagePath": "staticwebassets\\dist\\components\\visibility.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\components\\visibility.min.js",
+      "PackagePath": "staticwebassets\\dist\\components\\visibility.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\semantic.css",
+      "PackagePath": "staticwebassets\\dist\\semantic.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\semantic.js",
+      "PackagePath": "staticwebassets\\dist\\semantic.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\semantic.min.css",
+      "PackagePath": "staticwebassets\\dist\\semantic.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\semantic.min.js",
+      "PackagePath": "staticwebassets\\dist\\semantic.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\basic\\assets\\fonts\\icons.eot",
+      "PackagePath": "staticwebassets\\dist\\themes\\basic\\assets\\fonts\\icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\basic\\assets\\fonts\\icons.svg",
+      "PackagePath": "staticwebassets\\dist\\themes\\basic\\assets\\fonts\\icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\basic\\assets\\fonts\\icons.ttf",
+      "PackagePath": "staticwebassets\\dist\\themes\\basic\\assets\\fonts\\icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\basic\\assets\\fonts\\icons.woff",
+      "PackagePath": "staticwebassets\\dist\\themes\\basic\\assets\\fonts\\icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\brand-icons.eot",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\brand-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\brand-icons.svg",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\brand-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\brand-icons.ttf",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\brand-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\brand-icons.woff",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\brand-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\brand-icons.woff2",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\brand-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\icons.eot",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\icons.otf",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\icons.otf"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\icons.svg",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\icons.ttf",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\icons.woff",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\icons.woff2",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\outline-icons.eot",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\outline-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\outline-icons.svg",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\outline-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\outline-icons.ttf",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\outline-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\outline-icons.woff",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\outline-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\fonts\\outline-icons.woff2",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\fonts\\outline-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\default\\assets\\images\\flags.png",
+      "PackagePath": "staticwebassets\\dist\\themes\\default\\assets\\images\\flags.png"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\github\\assets\\fonts\\octicons-local.ttf",
+      "PackagePath": "staticwebassets\\dist\\themes\\github\\assets\\fonts\\octicons-local.ttf"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\github\\assets\\fonts\\octicons.svg",
+      "PackagePath": "staticwebassets\\dist\\themes\\github\\assets\\fonts\\octicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\github\\assets\\fonts\\octicons.ttf",
+      "PackagePath": "staticwebassets\\dist\\themes\\github\\assets\\fonts\\octicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\github\\assets\\fonts\\octicons.woff",
+      "PackagePath": "staticwebassets\\dist\\themes\\github\\assets\\fonts\\octicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\material\\assets\\fonts\\icons.eot",
+      "PackagePath": "staticwebassets\\dist\\themes\\material\\assets\\fonts\\icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\material\\assets\\fonts\\icons.svg",
+      "PackagePath": "staticwebassets\\dist\\themes\\material\\assets\\fonts\\icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\material\\assets\\fonts\\icons.ttf",
+      "PackagePath": "staticwebassets\\dist\\themes\\material\\assets\\fonts\\icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\material\\assets\\fonts\\icons.woff",
+      "PackagePath": "staticwebassets\\dist\\themes\\material\\assets\\fonts\\icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\dist\\themes\\material\\assets\\fonts\\icons.woff2",
+      "PackagePath": "staticwebassets\\dist\\themes\\material\\assets\\fonts\\icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\img\\img-24-12-2019-16-50-2481.jpg",
+      "PackagePath": "staticwebassets\\img\\img-24-12-2019-16-50-2481.jpg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\img\\img-25-12-2019-15-32-7633.jpg",
+      "PackagePath": "staticwebassets\\img\\img-25-12-2019-15-32-7633.jpg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\img\\img-25-12-2019-15-32-8885.jpg",
+      "PackagePath": "staticwebassets\\img\\img-25-12-2019-15-32-8885.jpg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\img\\img-25-12-2019-15-33-6065.jpg",
+      "PackagePath": "staticwebassets\\img\\img-25-12-2019-15-33-6065.jpg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\img\\img-25-12-2019-15-33-9946.jpg",
+      "PackagePath": "staticwebassets\\img\\img-25-12-2019-15-33-9946.jpg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\img\\img-26-12-2019-09-27-1419.jpg",
+      "PackagePath": "staticwebassets\\img\\img-26-12-2019-09-27-1419.jpg"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\90532\\Desktop\\semihcode\\webodev\\kuaforsln\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.kuaforsln.props",
+      "PackagePath": "build\\kuaforsln.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.kuaforsln.props",
+      "PackagePath": "buildMultiTargeting\\kuaforsln.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.kuaforsln.props",
+      "PackagePath": "buildTransitive\\kuaforsln.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.kuaforsln.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

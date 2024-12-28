@@ -116,7 +116,7 @@ namespace kuaforsln.Controllers
 
         public IActionResult UzmanEkle()
         {
-            ViewBag.kullanicilar = new SelectList(kullaniciRepo.GetAll().Where(u => !uzmanRepo.GetAll().Select(s => s.KullaniciId).Include(u.KullaniciAdi)), "Id", "TamAdi");
+            //ViewBag.kullanicilar = new SelectList(kullaniciRepo.GetAll().Where(u => !uzmanRepo.GetAll().Select(s => s.KullaniciId).Include(u.KullaniciAdi)), "Id", "TamAdi");
             return View();
         }
 
@@ -218,6 +218,6 @@ namespace kuaforsln.Controllers
             return RedirectToAction("GalleryGuncelle");
         }
 
-        public IActionResult GallerySil(int id) => RedirectToAction("GalleryYonetimi", galleryRepo.Sil(galleryRepo.Table.Where(u => u.Id == id).FirstOrDefault()));
+        //public IActionResult GallerySil(int id) => RedirectToAction("GalleryYonetimi", galleryRepo.Sil(galleryRepo.Table.Where(u => u.Id == id).FirstOrDefault()));
     }
 }
