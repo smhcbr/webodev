@@ -1,0 +1,22 @@
+@model kuaforsln.Models.Kullanici
+@{
+    Layout = "_Layout";
+}
+<div class="ui container grid padded">
+    <div class="row">
+        <div class="wide column">
+            @using (Html.BeginForm("KayitOl", "Giris", null, FormMethod.Post, true, new { @class = "ui large form error" }))
+            {
+                @Html.TextBoxFor(m => m.KullaniciAdi, new { placeholder = "Kullanici Adi" });
+                @Html.TextBoxFor(m => m.Sifre, new { placeholder = "Sifre" });
+                @Html.TextBoxFor(m => m.TamAdi, new { placeholder = "Tam Adi" });
+                @Html.TextBoxFor(m => m.Email, new { placeholder = "E-Mail" });
+                @Html.TextBoxFor(m => m.Telefon, new { placeholder = "Telefon" });
+                @Html.TextAreaFor(m => m.Adres, new { placeholder = "Adres" });
+
+                <button class="ui fluid large teal submit button" type="submit">Register</button>
+            }
+            <a class="ui default button" href="~/">Anasayfa</a>
+        </div>
+    </div>
+</div>

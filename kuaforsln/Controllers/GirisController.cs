@@ -27,7 +27,7 @@ namespace kuaforsln.Controllers
         {
             if (HttpContext.User.Identity.IsAuthenticated)
             {
-                return Redirect(User.IsInRole("admin") ? "~/Admin" : "~/KullaniciView");
+                return Redirect(User.IsInRole("admin") ? "~/YoneticiPanel" : "~/KullaniciPanel");
             }
             return View();
         }
@@ -43,7 +43,7 @@ namespace kuaforsln.Controllers
             if (user == null) return RedirectToAction("Index");
 
             await SignInAsync(user);
-            return Redirect(user.Yetki.RoleAdi == "admin" ? "~/AdminPanel" : "~/KullaniciView");
+            return Redirect(user.Yetki.RoleAdi == "admin" ? "~/YoneticiPanel" : "~/KullaniciPanel");
         }
 
         public async Task SignInAsync(Kullanici kullanici)
@@ -60,14 +60,14 @@ namespace kuaforsln.Controllers
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
         }
 
-        public IActionResult SignOut()
+        public IActionResult CikisYap()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index");
         }
 
         [AllowAnonymous]
-        public IActionResult Register()
+        public IActionResult KayitOl()
         {
             return View();
         }
@@ -86,7 +86,7 @@ namespace kuaforsln.Controllers
                 await SignInAsync(kayitliKullanici);
                 return RedirectToAction("Index", "Home");
             }
-            return RedirectToAction("Register");
+            return RedirectToAction("KayitOl");
         }
     }
 }

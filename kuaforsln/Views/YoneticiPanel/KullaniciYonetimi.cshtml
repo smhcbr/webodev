@@ -1,0 +1,49 @@
+@model IQueryable<kuaforsln.Models.Kullanici>
+@{
+    Layout = "_AdminLayout";
+}
+<div class="ui container centered padded grid">
+    <div class="row">
+        <div class="wide column">
+            <table class="ui attached inverted table">
+                <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Yetki</td>
+                    <td>Tam Adi</td>
+                    <td>Kullanici Adi</td>
+                    <td>Sifre</td>
+                    <td>Email</td>
+                    <td>Telefon</td>
+                    <td>Adres</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var kullanici in Model)
+                {
+                    <tr>
+                        <td>@kullanici.KullaniciID</td>
+                        <td>@kullanici.Yetki.RoleAdi</td>
+                        <td>@kullanici.TamAdi</td>
+                        <td>@kullanici.KullaniciAdi</td>
+                        <td>@kullanici.Sifre</td>
+                        <td>@kullanici.Email</td>
+                        <td>@kullanici.Telefon</td>
+                        <td>@kullanici.Adres</td>
+                        <td>
+                            <a href="~/YoneticiPanel/KullaniciGuncelle/@kullanici.KullaniciID">Duzenle</a>
+                        </td>
+                        <td>
+                            <a href="~/YoneticiPanel/KullaniciSil/@kullanici.KullaniciID">Sil</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+            <a class="ui button primary" href="~/YoneticiPanel/KullaniciEkle">Kullanici Ekle</a>
+            <a class="ui button default" href="~/YoneticiPanel">Admin Anasatfa</a>
+        </div>
+    </div>
+</div>

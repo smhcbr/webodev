@@ -1,0 +1,33 @@
+@model kuaforsln.Models.Gallery
+@{
+    Layout = "_AdminLayout";
+}
+<div class="ui container grid padded centered">
+    <div class="ui link cards centered padded">
+        <div class="card">
+            <div class="image">
+                <img src="~/img/@Model.ResimYol" alt="@Model.ResimAciklama">
+            </div>
+            <div class="content">
+                <p>@Model.ResimAciklama</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="eight wide column">
+            @using (Html.BeginForm("GalleryGuncelle", "YoneticiPanel", null, FormMethod.Post, true, new { @class = "ui form", enctype = "multipart/form-data", accept = "image/jpg, image/png" }))
+            {
+                @Html.HiddenFor(m => m.ResimId);
+                @Html.HiddenFor(m => m.ResimYol);
+                @Html.HiddenFor(m => m.ResimTarihi);
+                @Html.HiddenFor(m => m.Id);
+                <br />
+                @Html.LabelFor(m => m.ResimAciklama, "Resim Aciklaması");
+                @Html.TextBoxFor(m => m.ResimAciklama, new { });
+
+                <button class="ui fluid large teal submit button" type="submit">Guncelle</button>
+            }
+            <a class="ui button default" href="~/YoneticiPanel">Admin Anasayfa</a>
+        </div>
+    </div>
+</div>

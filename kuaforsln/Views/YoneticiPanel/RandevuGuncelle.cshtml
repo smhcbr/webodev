@@ -1,0 +1,28 @@
+@model kuaforsln.Models.Randevu
+@{
+Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="ui container centered grid padded">
+    <div class="row">
+        <div class="eight wide column">
+            @using (Html.BeginForm("RandevuGuncelle", "YoneticiPanel", new { @class = "ui large form error" }, FormMethod.Post))
+            {
+            @Html.HiddenFor(m => m.UzmanId)
+            @Html.HiddenFor(m => m.KullaniciId)
+
+            <div class="field">
+                @Html.LabelFor(m => m.Uzman.Kullanici.TamAdi)
+                @Html.TextBox("Tam Adi", ViewBag.user.FullName, "", new { @readonly = "readonly" })
+            </div>
+            <div class="field">
+                @Html.LabelFor(m => m.RandevuTarih)
+                @Html.TextBoxFor(m => m.RandevuTarih, new { type = "datetime-local" })
+            </div>
+            <button class="ui fluid large teal submit button" type="submit">Guncelle</button>
+            }
+
+            <a class="ui blue button" href="~/YoneticiPanel">Admin Anasayfa</a>
+        </div>
+    </div>
+</div>

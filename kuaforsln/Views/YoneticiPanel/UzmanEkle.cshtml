@@ -1,0 +1,24 @@
+@model kuaforsln.Models.Uzman
+@{
+Layout = "_AdminLayout";
+}
+
+<div class="ui container grid padded centered">
+    <div class="row">
+        <div class="eight wide column">
+            @using (Html.BeginForm("UzmanEkle", "YoneticiPanel", null, FormMethod.Post, true, new { @class = "ui form" }))
+            {
+            <div class="field">
+                @Html.LabelFor(m => m.Kullanici.TamAdi)
+                @Html.DropDownList("Id", ViewBag.Users.Items, "", new {  })
+            </div>
+            <div class="field">
+                @Html.LabelFor(m => m.UzmanAlan)
+                @Html.TextBoxFor(m => m.UzmanAlan)
+            </div>
+            <button class="ui fluid large teal submit button" type="submit">Ekle</button>
+            }
+            <a class="ui button default" href="~/YoneticiPanel">Admin Anasayfa</a>
+        </div>
+    </div>
+</div>

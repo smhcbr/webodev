@@ -1,0 +1,41 @@
+@model IQueryable<kuaforsln.Models.Randevu>
+@{
+Layout = "_UserLayout";
+}
+<div class="ui container centered padded grid">
+    <div class="row">
+        <div class="wide column">
+            <table class="ui attached inverted table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Uzman</th>
+                    <th>Randevu Tarihi</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var randevu in Model)
+                {
+                <tr>
+                    <td>@randevu.Id</td>
+                    <td>@randevu.Uzman.Kullanici.TamAdi</td>
+                    <td>@randevu.RandevuTarih</td>
+                    <td>
+                        <a href="~/KullaniciPanel/RandevuGuncelle/@randevu.Id">Guncelle</a>
+                    </td>
+                    <td>
+                        <a href="~/KullaniciPanel/RandevuSil/@randevu.Id">Sil</a>
+                    </td>
+                </tr>
+                }
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <a class="ui button primary" href="~/KullaniciPanel/RandevuOlustur">Randevu Olustur</a>
+            <a class="ui button default" href="~/KullaniciPanel">Ana Sayfa</a>
+        </div>
+    </div>
+</div>

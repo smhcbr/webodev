@@ -1,0 +1,48 @@
+
+@{
+    ViewData["Title"] = "Yonetici Giris";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+    <br />
+<div class="ui container grid centered">
+    <div class="row">
+        <div class="wide column">
+            @Html.ActionLink("Randevu Yonetimi", "RandevuYonetimi", "YoneticiPanel", null, new { @class = "ui button red padded huge", style = "width:100%" })
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="four wide column">
+            @Html.ActionLink("Kullanici Yonetimi", "KullaniciYonetimi", "YoneticiPanel", null, new { @class = "ui button secondary padded huge", style = "width:100%" })
+        </div>
+        <div class="four wide column">
+            @Html.ActionLink("Uzman Yonetimi", "UzmanYonetimi", "YoneticiPanel", null, new { @class = "ui button secondary padded huge", style = "width:100%" })
+        </div>
+        <div class="four wide column">
+            @Html.ActionLink("Iletisim Formu Yonetimi", "iFormYonetimi", "YoneticiPanel", null, new { @class = "ui button secondary padded huge", style = "width:100%" })
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="four wide column">
+            @Html.ActionLink("Hakkinda Yonetimi", "AboutYonetimi", "YoneticiPanel", null, new { @class = "ui button default padded huge", style = "width:100%" })
+        </div>
+        <div class="four wide column">
+            @Html.ActionLink("Galeri Yonetimi", "GalleryYonetimi", "YoneticiPanel", null, new { @class = "ui button default padded huge", style = "width:100%" })
+        </div>
+        <div class="four wide column">
+            @Html.ActionLink("Iletisim Yonetimi", "IletisimYonetimi", "YoneticiPanel", null, new { @class = "ui button default padded huge", style = "width:100%" })
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="eight wide column">
+            @Html.ActionLink("Site Anasayfa", "Index", "Home", null, new { @class = "green ui button mini", style = "width:100%" })
+        </div>
+        <div class="eight wide column">
+            @Html.ActionLink("Cikis Yap", "CikisYap", "Giris", null, new { @class = "red ui button mini", style = "width:100%" })
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,33 @@
+@model kuaforsln.Models.Kullanici
+@{
+    Layout = "_AdminLayout";
+}
+<div class="ui container grid padded centered">
+    <div class="row">
+        <div class="eight wide column">
+            @using (Html.BeginForm("KullaniciGuncelle", "YoneticiPanel", null, FormMethod.Post, true, new { @class = "ui form" }))
+            {
+                @Html.LabelFor(m => m.KullaniciAdi, "Kullanici Adi");
+                @Html.TextBoxFor(m => m.KullaniciAdi, new {});
+                @Html.LabelFor(m => m.Sifre, "Sifre");
+                @Html.TextBoxFor(m => m.Sifre, new { });
+                @Html.LabelFor(m => m.TamAdi, "Tam Adi");
+                @Html.TextBoxFor(m => m.TamAdi, new {  });
+                @Html.LabelFor(m => m.Email, "E-Mail");
+                @Html.TextBoxFor(m => m.Email, new {  });
+                @Html.LabelFor(m => m.Telefon, "Telefon");
+                @Html.TextBoxFor(m => m.Telefon, new {  });
+                @Html.LabelFor(m => m.Adres, "Adres");
+                @Html.TextAreaFor(m => m.Adres, new {  });
+                @Html.LabelFor(m => m.YetkiId, "Yetki");
+                <select name="selectedRole" class="form-control">
+                    <option value="1">Admin</option>
+                    <option value="2">User</option>
+                </select>
+
+                <button class="ui fluid large teal submit button" type="submit">Guncelle</button>
+            }
+            <a class="ui button default" href="~/YoneticiPanel">Admin Anasayfa</a>
+        </div>
+    </div>
+</div>

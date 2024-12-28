@@ -1,0 +1,38 @@
+@model IQueryable<kuaforsln.Models.Uzman>
+@{
+Layout = "_AdminLayout";
+}
+
+<div class="ui container centered padded grid">
+    <div class="row">
+        <div class="wide column">
+            <table class="ui attached inverted table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tam Adı</th>
+                    <th>Uzman Alanı</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var uzman in Model)
+                {
+                <tr>
+                    <td>@uzman.Id</td>
+                    <td>@uzman.Kullanici.TamAdi</td>
+                    <td>@uzman.UzmanAlan</td>
+                    <td><a href="~/YoneticiPanel/UzmanGuncelle/@uzman.Id">Düzenle</a></td>
+                    <td><a href="~/YoneticiPanel/UzmanSil/@uzman.Id">Sil</a></td>
+                </tr>
+                }
+                </tbody>
+            </table>
+            <div class="ui two buttons">
+                <a class="ui button primary" href="~/YoneticiPanel/UzmanEkle">Uzman Ekle</a>
+                <a class="ui button default" href="~/YoneticiPanel">Admin Anasayfa</a>
+            </div>
+        </div>
+    </div>
+</div>

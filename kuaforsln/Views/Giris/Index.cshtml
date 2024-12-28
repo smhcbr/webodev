@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Giriş";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model kuaforsln.Models.Kullanici
+
+<div class="ui container grid padded centered">
+    <div class="row">
+        <div class="eight wide column centered">
+            @using (Html.BeginForm("Index", "Giris", null, FormMethod.Post, true, new { @class = "ui large form error" }))
+            {
+                <div class="field">
+                    @Html.TextBoxFor(m => m.KullaniciAdi, new { placeholder = "Kullanici Adi" })
+                </div>
+                <div class="field">
+                    @Html.TextBoxFor(m => m.Sifre, new { placeholder = "Sifre", @type = "password" }) 
+                </div>
+                <button class="ui fluid large teal submit button" type="submit">Giriş</button>
+            }
+        </div>
+    </div>
+</div>

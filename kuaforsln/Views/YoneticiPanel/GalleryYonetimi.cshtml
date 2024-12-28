@@ -1,0 +1,42 @@
+@model IQueryable<kuaforsln.Models.Gallery>
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="ui container centered padded grid">
+    <div class="row">
+        <div class="wide column">
+            <table class="ui attached inverted table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Resim Kullanicisi</th>
+                    <th>Acıklama</th>
+                    <th>Yol</th>
+                    <th>Tarih</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var gallery in Model)
+                {
+                    <tr>
+                        <td>@gallery.ResimId</td>
+                        <td>@gallery.ResimKullanici.TamAdi</td>
+                        <td>@gallery.ResimAciklama</td>
+                        <td>@gallery.ResimYol</td>
+                        <td>@gallery.ResimTarihi</td>
+                        <td><a href="~/YoneticiPanel/GalleryGuncelle/@gallery.Id">Duzenle</a></td>
+                        <td><a href="~/YoneticiPanel/GallerySil/@gallery.Id">Sil</a></td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+            <div class="ui two buttons">
+                <a class="ui button primary" href="~/YoneticiPanel/GalleryEkle">Ekle</a>
+                <a class="ui button default" href="~/YoneticiPanel">Admin Anasayfa</a>
+            </div>
+        </div>
+    </div>
+</div>

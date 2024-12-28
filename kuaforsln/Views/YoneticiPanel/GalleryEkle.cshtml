@@ -1,0 +1,23 @@
+@model kuaforsln.Models.Gallery
+@{
+    Layout = "_AdminLayout";
+}
+<div class="ui container grid padded centered">
+    <div class="row">
+        <div class="eight wide column">
+            @using (Html.BeginForm("GalleryEkle", "YoneticiPanel", null, FormMethod.Post, true, new {  @class = "ui form", enctype = "multipart/form-data", accept = "image/jpg, image/png" }))
+            {
+                <br />
+                <input type="file" name="galleryImage" />
+                <br />
+                @Html.LabelFor(m => m.ResimAciklama, "Resim Aciklamasi");
+                @Html.TextBoxFor(m => m.ResimAciklama, new { });
+
+
+
+                <button class="ui fluid large teal submit button" type="submit">Ekle</button>
+            }
+            <a class="ui button default" href="~/YoneticiPanel">Admin Anasayfa</a>
+        </div>
+    </div>
+</div>

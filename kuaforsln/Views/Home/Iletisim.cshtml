@@ -57,7 +57,7 @@
                 Mesajinizi yazin
             </div>
         </h2>
-        @using (Html.BeginForm("IletisimFormEkle", "YoneticiPanel", FormMethod.Post, new { @class = "ui form" }))
+        @using (Html.BeginForm("iFormEkle", "YoneticiPanel", FormMethod.Post, new { @class = "ui form" }))
         {
             <div class="ui stacked segment">
                 <div class="field error">
@@ -89,7 +89,7 @@
                         @Html.TextAreaFor(m => m.Mesaj, new { placeholder = "Mesajiniz" })
                     </div>
                 </div>
-                <button class="ui fluid large teal submit button" type="submit">Gondeer</button>
+                <button class="ui fluid large teal submit button" type="submit">Gonder</button>
             </div>
 
         }

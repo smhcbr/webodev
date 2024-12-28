@@ -1,0 +1,19 @@
+@model kuaforsln.Models.Uzman
+@{
+    Layout = "_AdminLayout";
+}
+<<div class="ui container grid padded centered">
+    <div class="row">
+        <div class="eight wide column">
+            @using (Html.BeginForm("UzmanGuncelle", "YoneticiPanel", null, FormMethod.Post, true, new { @class = "ui form" }))
+            {
+                <h3>@ViewBag.userFullName</h3>
+                <br />
+                @Html.TextBoxFor(m => m.UzmanAlan, new {  });
+                @Html.HiddenFor(m => m.KullaniciId)
+                <button class="ui fluid large teal submit button" type="submit">Guncelle</button>
+            }
+            <a class="ui button default" href="~/YoneticiPanel">Admin Anasayfa</a>
+        </div>
+    </div>
+</div>

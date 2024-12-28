@@ -1,0 +1,26 @@
+@model kuaforsln.Models.Kullanici
+@{
+ViewData["Title"] = "Anasayfa";
+Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="ui centered grid">
+    <div class="row">
+        <div class="four wide column">
+            <a href="@Url.Action("RandevuYonetimi", "KullaniciPanel")" class="ui primary button padded huge">Randevu Yönetimi</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="four wide column">
+            <a href="@Url.Action("KisiselAyarlar", "KullaniciPanel")" class="ui secondary button padded huge">Kullanıcı Ayarları</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="eight wide column">
+            <a href="@Url.Action("Index", "Home")" class="green ui button">Site Anasayfa</a>
+        </div>
+        <div class="eight wide column">
+            <a href="@Url.Action("CikisYap", "Giris")" class="red ui button">Çıkış Yap</a>
+        </div>
+    </div>
+</div>

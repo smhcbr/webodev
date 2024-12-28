@@ -1,0 +1,29 @@
+@model kuaforsln.Models.Iletisim
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="ui container grid padded centered">
+    <div class="row">
+        <div class="eight wide column">
+            @using (Html.BeginForm("IletisimYonetimi", "YoneticiPanel", null, FormMethod.Post, true, new { @class = "ui form" }))
+            {
+                @Html.HiddenFor(m => m.Id)
+                <div class="field">
+                    @Html.LabelFor(m => m.Email)
+                    @Html.TextBoxFor(m => m.Email)
+                </div>
+                <div class="field">
+                    @Html.LabelFor(m => m.Telefon)
+                    @Html.TextBoxFor(m => m.Telefon)
+                </div>
+                <div class="field">
+                    @Html.LabelFor(m => m.Adres)
+                    @Html.TextBoxFor(m => m.Adres)
+                </div>
+                <button class="ui fluid large teal submit button" type="submit">Güncelle</button>
+            }
+            <a class="ui button default" href="~/YoneticiPanel">Admin Anasayfa</a>
+        </div>
+    </div>
+</div>

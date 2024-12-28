@@ -1,0 +1,25 @@
+@model IQueryable<kuaforsln.Models.Gallery>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="ui link cards centered padded">
+    @foreach (var resim in Model)
+    {
+        <div class="card">
+            <div class="image">
+                <img src="~/img/@resim.ResimYol">
+            </div>
+            <div class="content">
+                <div class="description">
+                    @resim.ResimAciklama
+                </div>
+            </div>
+            <div class="extra content">
+                <span class="right floated">
+                    @resim.ResimTarihi.ToShortDateString()
+                </span>
+            </div>
+        </div>
+    }
+</div>

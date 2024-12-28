@@ -1,0 +1,22 @@
+@model kuaforsln.Models.Randevu
+@{
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="ui container centered grid padded">
+    <div class="row">
+        <div class="eight wide column">
+            @using (Html.BeginForm("RandevuOlustur", "KullaniciPanel", null, FormMethod.Post, true, new { @class = "ui large form"}))
+            {
+                @Html.HiddenFor(m => m.KullaniciId);               
+                @Html.DropDownList("UzmanId", ViewBag.Users.Items, "Uzman Secin", new {  });              
+                @Html.TextBoxFor(m => m.RandevuTarih, new {type = "datetime-local" });
+                <button class="ui fluid large teal submit button" type="submit">Randevu Olustur</button>
+            }
+            <br />
+            <br />
+            <a class="ui blue button" href="~/KullaniciPanel/RandevuYonetimi">Randevular</a>
+            <a class="ui button default" href="~/KullaniciPanel">Anasayfa</a>
+        </div>
+    </div>
+</div>

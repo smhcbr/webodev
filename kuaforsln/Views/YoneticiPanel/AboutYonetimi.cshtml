@@ -1,0 +1,22 @@
+@model kuaforsln.Models.About
+@{
+    Layout = "_AdminLayout";
+}
+<div class="ui container grid padded centered">
+    <div class="row">
+        <div class="eight wide column">
+            @using (Html.BeginForm("AboutYonetimi", "YoneticiPanel", null, FormMethod.Post, true, new { @class = "ui large form" }))
+            {
+                @Html.HiddenFor(m => m.Id);
+                @Html.LabelFor(m => m.Hakkinda, "Hakkimizda");
+                @Html.TextBoxFor(m => m.Hakkinda,new {});
+                @Html.LabelFor(m => m.Amac, "Misyonumuz");
+                @Html.TextBoxFor(m => m.Amac,new {});
+                @Html.LabelFor(m => m.Vizyon, "Vizyonumuz");
+                @Html.TextBoxFor(m => m.Vizyon,new {});
+                <button class="ui fluid large teal submit button" type="submit">Guncelle</button>
+            }
+            <a class="ui button default" href="~/Admin">Admin Anasayfa</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+@model IQueryable<kuaforsln.Models.IletisimForm>
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="ui container centered padded grid">
+    <div class="row">
+        <div class="wide column">
+            <table class="ui attached inverted table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tam Adı</th>
+                    <th>Başlık</th>
+                    <th>Mesaj</th>
+                    <th>Email</th>
+                    <th>Telefon</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var iForm in Model)
+                {
+                    <tr class="padded">
+                        <td>@iForm.Id</td>
+                        <td>@iForm.Ad</td>
+                        <td>@iForm.Baslik</td>
+                        <td>@iForm.Mesaj</td>
+                        <td>@iForm.Email</td>
+                        <td>@iForm.Telefon</td>
+                        <td>
+                            <a href="~/YoneticiPanel/iFormSil/@iForm.Id">Sil</a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+            <a class="ui button default" href="~/YoneticiPanel">Admin Anasayfa</a>
+        </div>
+    </div>
+</div>
